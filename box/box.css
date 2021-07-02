@@ -1,0 +1,22 @@
+.box1{
+  width: 300px;
+  height: 300px;
+  background-color: #4689FF;
+  margin-left: 40px;
+  /* padding: 30px; */
+}
+
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: #93FFAB;
+  /* 枠線追加(box2の周囲すべてに惑星を設定) */
+  /* border: 5px solid yellow; */
+
+  border: solid black; /* まずborderの種類と色を指定 */
+  /* border-top-width: 5px; 上側に5pxのborderを設定 */
+  /* border-right-width: 5px; */
+  /* border-bottom-width: 5px; */
+  border-left-width: 5px;
+  
+}

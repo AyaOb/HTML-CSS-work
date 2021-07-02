@@ -1,0 +1,77 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+  display: flex;  /* 　修正後、追加コード */
+}
+
+/* .main-box{
+  display: flex;
+  justify-content: center;
+} */
+
+.section{
+  width: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  padding: 10px;  /* 　修正後、追加コード */
+  position: relative;  /* 　修正後、追加コード */
+}
+
+.section:last-child{
+  margin-right: 0px;
+}
+
+/* .section-box{
+  padding: 10px;
+} */
+
+.section-img{
+  height: 150px;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.img1{
+  background-image: url(img/flow01.png);
+}
+
+.img2{
+  background-image: url(img/flow02.png);
+}
+
+.img3{
+  background-image: url(img/flow03.png);
+}
+
+.section-step{
+color: #fff;
+background-color: #FF9A4B;
+/* ↓relativeが指定されている親要素を基準にして配置を決定 */
+position: absolute;  /* position: relative;とセットで使うべき*/
+top: 0px;  /* 　修正後、追加コード */
+left: 0px;  /* 　修正後、追加コード */
+}
+
+.section-title{
+  margin-top: 15px;
+}
+
+.section-text{
+  margin-top: 5px;
+}
+
+footer{
+  height: 50px;
+  background-color: #AAAAAA;
+}
